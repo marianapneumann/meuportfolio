@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Open+Sans+Condensed:ital,wght@0,700;1,300&family=Roboto+Mono:wght@300&family=Special+Elite&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+
+.imagem-inicial{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: zoom 25s;
+  opacity:0.9;
+}
+.conteudo-primario{
+position: absolute;
+left: 23%;
+top:50%;
+color: black;
+text-align: center;
+font-family: 'Special Elite', cursive;
+
+}
+.titulo-primario{
+border-right: 2px solid(255,255,255,075);
+font-size: 80px;
+
+}
+.botao-sobremim{
+  background-color: black;
+  font-size: 15px;
+  font-family: 'Special Elite', cursive;
+  color: aliceblue;
+  height: 48px;
+  width: 120px;
+  border-radius: 10px 10px;
+  border: none;
+}
+.container1{
+background-color: azure;
+font-family: 'Special Elite', cursive;
+}
+
+.container1-foto{
+  border-radius: 5px 5px;
+  height: 270px;
+  width: 200px;
+  padding-top: 10%;
+  padding-left: 45%;
+}
+
+.container1-titulo{
+  padding-top: 48px;
+ text-align: center;
+  
+}
+.container1-paragrafo{
+  text-align: center;
+  font-weight: 280;
+  font-size: 16px;
+  color: black;
+}
+
+.rodape{
+  padding-top: 48px;
+  border-top: 1px solid black;
+  padding:15px;
+  background-color:brown:
+  text-align:left;
+
+}
